@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         
         colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromRGBO(33, 6, 80, 1)),
       ),
+      debugShowCheckedModeBanner: false,
       home: Onboarding(),
     );
   }
